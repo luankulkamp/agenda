@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000e1;
+}
+
+.container{
+    max-width: 600px;
+    width: 100%;
+    margin: 100px auto;
+    border: 8px solid #000;
+    border-radius: 20px;
+    background-color: #363636;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #000;
+    background-color: rgb(173, 122, 11);
+    justify-content: center;
+    border-radius: 10px;
+}
+
+header img{
+    height: 32px;
+    padding-left: 16px;
+    margin-right: 32px;
+}
+
+form{
+    margin-top: 12px; 
+    padding: 5px; 
+}
+
+form input,
+button{
+    height: 32px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+input{
+    width: 235px;
+}
+
+button{
+    width: 96px;
+    background-color: rgb(173, 122, 11);
+}
+
+table{
+    margin-top: 12px;
+    width: 100%;
+    border-top: 3px solid rgb(0, 0, 0);
+}
+
+table th{
+    font-size: 26px;
+}
+
+#nome-cabecalho{
+    text-align: justify;
+    padding-left: 16px;
+}
+
+table td{
+    font-size: 20px;
+    margin-top: 10px;
+    border-top: 2px solid rgba(0, 0, 0, 0.5); 
+}
+
+#nome-tabela{
+    width: 400px;
+    padding-left: 16px;
+}
+
+#numero-tabela{
+    text-align: center;
+}
